@@ -111,13 +111,6 @@ _This project wasn't easy. Here are two major hurdles I overcame:_
 
 Architecture Diagram
 
-RAG Retrieval Logs
-
-Conversation UI Demo
-
-PII Masking Proof
-
-API Logs
 
 
 7\. How to Run
@@ -132,30 +125,6 @@ cd AI-Hackathon-
 **Install Dependencies**
 ```bash
 pip install -r requirements.txt
-```
-
-**Set Environment Variables (.env)**
-```bash
-OPENAI_API_KEY=
-VECTOR_DB_URL=
-INVENTORY_API_URL=
-COUPON_API_URL=
-ORDER_API_URL=
-```
-
-**Start Vector Store**
-```bash
-python ingest_docs.py
-```
-
-**Run Backend**
-```bash
-uvicorn main:app --reload
-```
-
-**Test Chat (Open browser):**
-```bash
-http://localhost:8000/chat
 ```
 
 
