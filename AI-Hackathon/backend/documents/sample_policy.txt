@@ -1,1 +1,0 @@
-Sample policy text: store hours, inventories, coupon rules. Use this as ingestion demo.
