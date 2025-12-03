@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+httpx
+python-dotenv
+sentence-transformers
+faiss-cpu
+spacy
+scikit-learn
+polars
+weasyprint
+jinja2
+python-multipart
+pytest
+pytest-asyncio
+tqdm
+email-validator
